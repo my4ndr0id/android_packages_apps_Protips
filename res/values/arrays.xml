@@ -36,22 +36,46 @@
         <item>See all your apps.\n
         Touch the Launcher icon. @drawable/all_apps</item>
 
+        <!-- Tip: How to survive in CyanogenMod. -->
+        <item>Rules\n
+        The only rule of CyanogenMod: You dont ask for ETAs.</item>
+
+	<!-- Tip: How to get nightly builds. -->
+	<item>CyanogenMOD Nightly Builds\n
+	(Advanced) Available on ROM Manager. Do not submit bug reports on Google Code for nightly builds. @drawable/rommanager</item>
+
         <!-- Tip: Longpress in Launcher (all apps) to drag apps to the home screen. -->
         <item>Drag apps to your Home screen.\n
         Touch &amp; hold an app in the Launcher until it vibrates.</item>
+
+        <!-- Tip: blamewes -->
+        <item>#blamewes\n
+        Avoid wesgarner at all costs. @drawable/wesgarner</item>
 
         <!-- Tip: Longpress to move icons/widgets around. -->
         <item>Rearrange your Home screen.\n
         Touch &amp; hold an item and when it vibrates, drag it where you want.</item>
 
+        <!-- Tip: Teach them how to become better programmers -->
+        <item>Ballmer Peak\n
+        Optimal coding ability takes place between a BAC of .129 and .138.</item>
+
         <!-- Tip: Longpress icons/widgets and drag to trash to remove them. -->
         <item>Remove items.\n
         Touch &amp; hold an item and when it vibrates, drag it to the Trash icon. @drawable/trash</item>
+
+        <!-- Tip: Explain what is wrong with the iPhone. -->
+        <item>iPhone\n
+        You\'re holding it wrong. Always.</item>
 
         <!-- Tip: Swipe to switch workspaces; drag items to move them to other
              workspaces. -->
         <item>Multiple Home screens.\n
         Swipe left or right to switch. Drag items to other screens.</item>
+
+        <!-- Tip: Winzip must be kept up to date. -->
+        <item>Number 1 Priority\n
+        Don\'t forget to keep your winzip up to date.</item>
 
         <!-- Tip: Reminder about how to delete widgets, reinforcing that this
              technique can be used to remove the tips widget iteself. -->
@@ -87,4 +111,5 @@
         \nCeci n’est pas une trombone
         \nI am an Android</item>
     </string-array>
+   
 </resources>
