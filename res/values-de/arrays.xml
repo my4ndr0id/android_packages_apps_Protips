@@ -24,4 +24,29 @@
     <item msgid="1000948398885889319">"Mehrere Startbildschirme:"\n" Ziehen Sie zum Wechseln nach links oder rechts. Ziehen Sie Elemente auf andere Bildschirme."</item>
     <item msgid="424487960942281801">"Dieses Widget entfernen?"\n" Berühren &amp; halten Sie es. Sobald es vibriert, ziehen Sie es in den Papierkorb."</item>
   </string-array>
+  <string-array name="brotips">
+    <!-- Tip: Find out what it means to kang. -->
+    <item>Kang [kahng] - (Verb)\n
+      Habe mein Winzip aktualisiert, br0. Thanks to my patient lady putting up with my devvin. @drawable/kang_truck</item>
+
+    <!-- Tip: Teach them how to become better programmers -->
+    <item>Ballmer Peak\n
+      Das Programmiervermögen ist direkt proportional zum Alkoholkonsum.</item>
+
+    <!-- Tip: blamewes -->
+    <item>#blamewes\n
+      Wesgarner auf jeden Fall meiden. @drawable/wesgarner</item>
+
+    <!-- Tip: Explain what is wrong with the iPhone. -->
+    <item>iPhone\n
+      Du hältst es nur falsch. Immer.</item>
+
+    <!-- Tip: How to survive in CyanogenMod. -->
+    <item>Regeln\n
+      Die einzige Regel von CyanogenMod: Frage nicht nach Erscheinungsterminen.</item>
+
+    <!-- Tip: Winzip must be kept up to date. -->
+    <item>1. Priorität\n
+      Nicht vergessen dein Winzip aktuell zu halten.</item>
+  </string-array>
 </resources>
