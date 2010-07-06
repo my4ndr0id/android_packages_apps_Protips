@@ -24,4 +24,31 @@
     <item msgid="1000948398885889319">"複数のホーム画面"\n" 左右にスワイプするとホーム画面を切り替えられます。アイテムを他の画面にドラッグできます。"</item>
     <item msgid="424487960942281801">"不要になったウィジェット"\n" ウィジェットを押し続けて振動したらゴミ箱アイコンにドラッグできます。"</item>
   </string-array>
+
+    <string-array name="brotips">
+        <!-- Tip: Find out what it means to kang. -->
+        <item>Kang [kahng] - (動詞)\n
+        Upgraded my winzip br0. Thanks to my patient lady putting up with my devvin. @drawable/kang_truck</item>
+
+        <!-- Tip: Teach them how to become better programmers -->
+        <item>Ballmer Peak\n
+        コーディング能力はアルコールの消費量に比例している.</item>
+
+        <!-- Tip: blamewes -->
+        <item>#blamewes\n
+        なにがあっても wesgarner には関わるな. @drawable/wesgarner</item>
+
+        <!-- Tip: Explain what is wrong with the iPhone. -->
+        <item>iPhone\n
+        そもそもそれを持っているのがいけない.</item>
+
+        <!-- Tip: How to survive in CyanogenMod. -->
+        <item>ルール\n
+        CyanogenModただひとつのルール: いつ出るのか尋ねるな.</item>
+
+        <!-- Tip: Winzip must be kept up to date. -->
+        <item>最も優先されること\n
+        winzip を最新に保つことを忘れてはいけない.</item>
+    </string-array>
+
 </resources>
