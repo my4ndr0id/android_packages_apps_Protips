@@ -16,7 +16,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string-array name="protips">
+  <string-array name="tips">
     <item msgid="4457112202911142877">"すべてのアプリの表示"\n" ランチャーアイコンをタップします。 @drawable/all_apps"</item>
     <item msgid="8842580895829057430">"ホーム画面へのアプリのドラッグ"\n" ランチャーでアプリが振動するまで押し続けます。"</item>
     <item msgid="8903218961940756528">"ホーム画面のアイテムの並べ替え"\n" アイテムを押し続けて振動したら好きな場所にドラッグできます。"</item>
