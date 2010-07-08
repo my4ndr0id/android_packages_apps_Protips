@@ -81,11 +81,7 @@ public class ProtipWidget extends AppWidgetProvider {
         SharedPreferences pref = context.getSharedPreferences(PREFS_NAME, 0);
         mMessage = pref.getInt(PREFS_TIP_NUMBER, 0);
 	
-		if (Settings.System.getInt(mContext.getContentResolver(),
-         Settings.System.BROTIPS, 0) == 0)
-			mTips = context.getResources().getTextArray(R.array.protips);
-		else
-        	mTips = context.getResources().getTextArray(R.array.brotips);
+		mTips = context.getResources().getTextArray(R.array.tips);
 
         if (mTips != null) {
             if (mMessage >= mTips.length) mMessage = 0;
