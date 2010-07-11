@@ -18,10 +18,42 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="tips">
     <item msgid="4457112202911142877">"すべてのアプリの表示"\n" ランチャーアイコンをタップします。 @drawable/all_apps"</item>
+
+    <!-- Tip: How to survive in CyanogenMod. -->
+    <item>Rules\n
+    The only rule of CyanogenMod: You dont ask for ETAs.</item>
+
+
     <item msgid="8842580895829057430">"ホーム画面へのアプリのドラッグ"\n" ランチャーでアプリが振動するまで押し続けます。"</item>
+
+    <!-- Tip: blamewes -->
+    <item>#blamewes\n
+    Avoid wesgarner at all costs. @drawable/wesgarner</item>
+
+
     <item msgid="8903218961940756528">"ホーム画面のアイテムの並べ替え"\n" アイテムを押し続けて振動したら好きな場所にドラッグできます。"</item>
+
+    <!-- Tip: Teach them how to become better programmers -->
+    <item>Ballmer Peak\n
+    Optimal coding ability takes place between a BAC of .129 and .138.</item>
+
     <item msgid="3123213860439458492">"アイテムの削除"\n" アイテムを押し続けて振動したらゴミ箱アイコンにドラッグできます。 @drawable/trash"</item>
+
+    <!-- Tip: Explain what is wrong with the iPhone. -->
+    <item>iPhone\n
+    You\'re holding it wrong. Always.</item>
+
     <item msgid="1000948398885889319">"複数のホーム画面"\n" 左右にスワイプするとホーム画面を切り替えられます。アイテムを他の画面にドラッグできます。"</item>
+
+    <!-- Tip: Winzip must be kept up to date. -->
+    <item>Number 1 Priority\n
+    Don\'t forget to keep your winzip up to date.</item>
+
     <item msgid="424487960942281801">"不要になったウィジェット"\n" ウィジェットを押し続けて振動したらゴミ箱アイコンにドラッグできます。"</item>
+
+    <!-- Tip: Find out what it means to kang. -->
+    <item>Kang [kayng] - (verb)\n
+    Upgraded my winzip br0. Thanks to my patient lady putting up with my devvin. @drawable/kang_truck</item>
+
   </string-array>
 </resources>
