@@ -41,8 +41,8 @@
         The only rule of CyanogenMod: You dont ask for ETAs.</item>
 
 	<!-- Tip: How to get nightly builds. -->
-	<item>Nightly Builds\n
-	(Advanced) Available on ROM Manager. Do not submit issues on Google Code for these. @drawable/rommanager</item>
+	<item>Nightly Builds (Advanced)\n
+	Available on ROM Manager. Do not submit issues on Google Code for these. @drawable/rommanager</item>
 
         <!-- Tip: Longpress in Launcher (all apps) to drag apps to the home screen. -->
         <item>Drag apps to your Home screen.\n
