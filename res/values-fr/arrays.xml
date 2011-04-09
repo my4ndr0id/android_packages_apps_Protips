@@ -25,9 +25,6 @@
         <item>Nightly Builds (Advanced)\n
         Available on ROM Manager. Do not submit issues on Google Code for these. @drawable/rommanager</item>
         <item msgid="8842580895829057430">"Faites glisser les applications vers votre écran d\'accueil."\n" Appuyez sur une application du lanceur d\'applications jusqu\'à ce qu\'elle vibre."</item>
-        <!-- Tip: blamewes -->
-        <item>#blamewes\n
-        Avoid wesgarner at all costs. @drawable/wesgarner</item>
         <item msgid="8903218961940756528">"Organiser l\'écran d\'accueil"\n" Appuyez sur un élément et maintenez. Lorsqu\'il vibre, placez-le à l\'endroit souhaité."</item>
         <!-- Tip: Teach them how to become better programmers -->
         <item>Ballmer Peak\n
