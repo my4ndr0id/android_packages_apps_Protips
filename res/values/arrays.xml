@@ -98,7 +98,7 @@
     
     <!-- dial *#*#TIPS#*#* -->
     <!-- do not translate -->
-    <string-array name="tips2">
+    <string-array name="tips2" translatable="false">
         <item>Home is a garden
         \nTouch &amp; hold an empty spot
         \nTo grow new icons</item>
