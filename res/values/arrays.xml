@@ -61,7 +61,7 @@
     
     <!-- dial *#*#TIPS#*#* -->
     <!-- do not translate -->
-    <string-array name="tips2">
+    <string-array name="tips2" translatable="false">
         <item>Home is a garden
         \nTouch &amp; hold an empty spot
         \nTo grow new icons</item>
@@ -80,7 +80,7 @@
         <item>There is a trick to
         \nDragging items twixt Home screens
         \nPause at the edges</item>
-        <item>Touch Market for apps
+        <item>Touch Play Store for apps
         \nLike a box of chocolates
         \nEach one a surprise</item>
         <item>Oh, and by the way:
