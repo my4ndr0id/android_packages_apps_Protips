@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.protips;
+package com.cyanogenmod.protips;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -55,7 +55,7 @@ public class ProtipWidget extends AppWidgetProvider {
     }
     
     // initial appearance: eyes closed, no bubble
-    private int mIconRes = R.drawable.droidman_open;
+    private int mIconRes = R.drawable.cid_waving;
     private int mMessage = 0;
     private int mTipSet = 0;
 
@@ -84,20 +84,8 @@ public class ProtipWidget extends AppWidgetProvider {
     }
 
     public void goodmorning() {
-        mMessage = -1;
-        try {
-            setIcon(R.drawable.droidman_down_closed);
-            Thread.sleep(500);
-            setIcon(R.drawable.droidman_down_open);
-            Thread.sleep(200);
-            setIcon(R.drawable.droidman_down_closed);
-            Thread.sleep(100);
-            setIcon(R.drawable.droidman_down_open);
-            Thread.sleep(600);
-        } catch (InterruptedException ex) {
-        }
         mMessage = 0;
-        mIconRes = R.drawable.droidman_open;
+        mIconRes = R.drawable.cid_waving;
         refresh();
     }
 
@@ -150,7 +138,7 @@ public class ProtipWidget extends AppWidgetProvider {
             bcast.putExtra(EXTRA_TIMES, 3);
             mContext.sendBroadcast(bcast);
         } else {
-            mIconRes = R.drawable.droidman_open;
+            mIconRes = R.drawable.cid_waving;
             refresh();
         }
     }
@@ -175,17 +163,7 @@ public class ProtipWidget extends AppWidgetProvider {
         // don't blink if no bubble showing or if goodmorning() is happening
         if (mMessage < 0) return;
 
-        setIcon(R.drawable.droidman_closed);
-        try {
-            Thread.sleep(100);
-            while (0<--blinks) {
-                setIcon(R.drawable.droidman_open);
-                Thread.sleep(200);
-                setIcon(R.drawable.droidman_closed);
-                Thread.sleep(100);
-            }
-        } catch (InterruptedException ex) { }
-        setIcon(R.drawable.droidman_open);
+        setIcon(R.drawable.cid_waving);
     }
 
     public RemoteViews buildUpdate(Context context) {
@@ -205,7 +183,7 @@ public class ProtipWidget extends AppWidgetProvider {
         bcast.putExtra(EXTRA_TIMES, 1);
         pending = PendingIntent.getBroadcast(
             context, 0, bcast, PendingIntent.FLAG_UPDATE_CURRENT);
-        updateViews.setOnClickPendingIntent(R.id.bugdroid, pending);
+        updateViews.setOnClickPendingIntent(R.id.cid, pending);
 
         // Tip bubble text
         if (mMessage >= 0) {
@@ -241,7 +219,7 @@ public class ProtipWidget extends AppWidgetProvider {
             updateViews.setViewVisibility(R.id.tip_bubble, View.INVISIBLE);
         }
 
-        updateViews.setImageViewResource(R.id.bugdroid, mIconRes);
+        updateViews.setImageViewResource(R.id.cid, mIconRes);
 
         return updateViews;
     }
